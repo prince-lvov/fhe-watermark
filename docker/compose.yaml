@@ -1,0 +1,6 @@
+services:
+  watermark:
+    build: .
+    ports:
+      - 5555:22
+    restart: always
