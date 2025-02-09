@@ -60,7 +60,7 @@ To describe the verification algorithm, we need to introduce a new definition, s
 
 The inverted watermark mask contains the same data as the standard watermark mask, but each 8x8 pixel block has inverted watermark data on the reverse diagonal.
 
-![alt text](images/readme_old/both_watermarks.png)
+![alt text](readme_images/both_watermarks.png)
 
 The basic idea of ​​the werification test is that if an image has a watermark mask embedded, then the Hadamard product of the image and the inverted watermark mask is zero. The number of non-zero elements indicates the level of error.
 
